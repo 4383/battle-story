@@ -1,0 +1,34 @@
+INFO:root:2012-10-30 16:49:43.580622
+INFO:root:2012-10-30 16:56:13.758878
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/test.vaw
+INFO:root:Playing soundtrack
+INFO:root:Running game
+INFO:root:Stopping soundtrack
+INFO:root:Pygame shutdown please wait...
+INFO:root:Byby
+INFO:root:2012-10-30 17:11:45.734781
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/test.vaw
+INFO:root:Playing soundtrack
+INFO:root:Running game
+INFO:root:Stopping soundtrack
+INFO:root:Pygame shutdown please wait...
+INFO:root:Byby
+INFO:root:2012-10-30 17:24:49.346394
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/test.vaw
+INFO:root:Playing soundtrack
+INFO:root:Running game
+INFO:root:Stopping soundtrack
+INFO:root:Pygame shutdown please wait...
+INFO:root:Byby
