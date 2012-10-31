@@ -1,34 +1,430 @@
-INFO:root:2012-10-30 16:49:43.580622
-INFO:root:2012-10-30 16:56:13.758878
+INFO:root:2012-10-31 08:44:41.802291
 INFO:root:Loading pygame...
 INFO:root:Initializing pygame...
 INFO:root:FPS frequency : 30
 INFO:root:Initialize jukebox
 INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/test.vaw
+INFO:root:2012-10-31 08:45:10.375986
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).mp3
+INFO:root:2012-10-31 08:45:26.033501
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
 INFO:root:Playing soundtrack
 INFO:root:Running game
 INFO:root:Stopping soundtrack
 INFO:root:Pygame shutdown please wait...
 INFO:root:Byby
-INFO:root:2012-10-30 17:11:45.734781
+INFO:root:2012-10-31 08:47:43.160546
 INFO:root:Loading pygame...
 INFO:root:Initializing pygame...
 INFO:root:FPS frequency : 30
 INFO:root:Initialize jukebox
-INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/test.vaw
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
 INFO:root:Playing soundtrack
 INFO:root:Running game
 INFO:root:Stopping soundtrack
 INFO:root:Pygame shutdown please wait...
 INFO:root:Byby
-INFO:root:2012-10-30 17:24:49.346394
+INFO:root:2012-10-31 13:06:48.431135
 INFO:root:Loading pygame...
 INFO:root:Initializing pygame...
 INFO:root:FPS frequency : 30
 INFO:root:Initialize jukebox
-INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/test.vaw
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
 INFO:root:Playing soundtrack
 INFO:root:Running game
 INFO:root:Stopping soundtrack
+INFO:root:Pygame shutdown please wait...
+INFO:root:Byby
+INFO:root:2012-10-31 13:10:05.856509
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Running game
+INFO:root:2012-10-31 13:10:43.656452
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Running game
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Stopping soundtrack
+INFO:root:Pygame shutdown please wait...
+INFO:root:Byby
+INFO:root:2012-10-31 13:16:12.894489
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:2012-10-31 13:16:48.453250
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Running game
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:2012-10-31 13:18:01.524699
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Running game
+INFO:root:2012-10-31 13:38:50.279817
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Running game
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Stopping soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/Tunguska_Electronic_Music_Society_-_Oleg_Sirenko_-_Invasion_.vaw
+INFO:root:Playing soundtrack
+INFO:root:Pygame shutdown please wait...
+INFO:root:Byby
+INFO:root:2012-10-31 13:43:00.031269
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Running game
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Stopping soundtrack
+INFO:root:2012-10-31 13:43:19.506137
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Running game
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Stopping soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/Tunguska_Electronic_Music_Society_-_Oleg_Sirenko_-_Invasion_.vaw
+INFO:root:Playing soundtrack
+INFO:root:Pygame shutdown please wait...
+INFO:root:Byby
+INFO:root:2012-10-31 13:47:03.840161
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Running game
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Stopping soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/Tunguska_Electronic_Music_Society_-_Oleg_Sirenko_-_Invasion_.vaw
+INFO:root:Playing soundtrack
+INFO:root:Pygame shutdown please wait...
+INFO:root:Byby
+INFO:root:2012-10-31 13:59:20.271960
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Running game
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Stopping soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/Tunguska_Electronic_Music_Society_-_Oleg_Sirenko_-_Invasion_.vaw
+INFO:root:Playing soundtrack
+INFO:root:Pygame shutdown please wait...
+INFO:root:Byby
+INFO:root:2012-10-31 14:29:13.637670
+INFO:root:Loading pygame...
+INFO:root:Initializing pygame...
+INFO:root:FPS frequency : 30
+INFO:root:Initialize jukebox
+INFO:root:Running game
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw
+INFO:root:Playing soundtrack
+INFO:root:Stopping soundtrack
+INFO:root:Initialize jukebox
+INFO:root:Loading pist : /home/dev/Dev/Python/Jeu/battle-story/resources/music/Tunguska_Electronic_Music_Society_-_Oleg_Sirenko_-_Invasion_.vaw
+INFO:root:Playing soundtrack
 INFO:root:Pygame shutdown please wait...
 INFO:root:Byby
