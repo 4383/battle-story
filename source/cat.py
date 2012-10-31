@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 author:Hervé BERAUD
-filename:main.py
+filename:cat.py
 """
 try:
     import sys
@@ -27,7 +27,7 @@ class Cat():
     def move(self):
         """
         """
-        if self.catx < 220:
+        if self.catx < 320:
             self.catx += 5
             self.caty += 5
 
