@@ -14,6 +14,8 @@ try:
     from jukebox import Jukebox
     from const import LOG_FILE
     from const import FPS_FREQUENCY
+    from const import WINDOW_WIDTH
+    from const import WINDOW_HEIGHT
     import menu
 except ImportError as e:
     print(e)
@@ -29,7 +31,7 @@ def main():
     pygame.init()
     logging.info('Initializing pygame...')
     logging.info('FPS frequency : %s' % FPS_FREQUENCY)
-    window = pygame.display.set_mode((400, 300), 0, 32)
+    window = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT), 0, 32)
     pygame.display.set_caption('battle-story')
     cat = Cat(window)
     jukebox = Jukebox()
