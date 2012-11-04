@@ -50,15 +50,24 @@ def load_image(name, colorkey=None, alpha=False):
     else:
         return image, image.get_size()
 
-def load_sliced_sprites(self, w, h, filename):
+def load_sliced_sprites(w, h, filename):
     """
     Load a composed picture from sprite file.
     Using for creating animation
     """
-    images = []
-    master_image, master_size = load_image(filename)
+   # images = []
+   # master_image, master_size = load_image(filename)
 
-    master_width, master_height = master_size
-    for i in xrange(int(master_width/w)):
-        images.append(master_image.subsurface((i*w,0,w,h)))
-    return images
+   # master_width, master_height = master_size
+    images = []
+    rects = []
+    fullname = '{0}{1}' . format(RESOURCES_PATH_IMG, filename)
+    master_image = pygame.image.load(fullname).convert_alpha()
+
+    master_width, master_height = master_image.get_size()
+    for j in xrange(int(master_height/h)):
+        for i in xrange(int(master_width/w)):
+            tmp_img = master_image.subsurface((i*w,j*h,w,h))
+            images.append(tmp_img)
+            rects.append(tmp_img.get_rect())
+    return images, rects
