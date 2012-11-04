@@ -32,7 +32,7 @@ def main():
     logging.info('Initializing pygame...')
     logging.info('FPS frequency : %s' % FPS_FREQUENCY)
     window = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT), 0, 32)
-    pygame.display.set_caption('battle-story')
+    pygame.display.set_caption('BATTLE-STORY')
     cat = Cat(window)
     jukebox = Jukebox()
     logging.info('Running game')

@@ -35,6 +35,7 @@ FPS_FREQUENCY = config.getfloat('BASIC', 'FPS_FREQUENCY')
 FPS_CLOCK = pygame.time.Clock()
 # Color
 GREEN = (0, 255, 0)
+GREEN_PELOUSE = (0, 205, 0)
 BLACK = (0, 0, 0)
 CIEL = (0, 191, 255)
 
