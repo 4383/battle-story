@@ -15,7 +15,12 @@ try:
     from const import FPS_FREQUENCY
     from const import FPS_CLOCK
     from const import GREEN
+    from const import GREEN_PELOUSE
+    from const import WINDOW_HEIGHT
+    from const import WINDOW_WIDTH
+    from objects.players import Hero
     from objects.nature import Cloud
+    from objects.weapon import Bomb
     import core
     from jukebox import Jukebox
 except ImportError as e:
@@ -35,18 +40,19 @@ def main_menu(window):
     background = background.convert()
     background.fill(CIEL)
 
-    if pygame.font:
-        font = pygame.font.Font(FONT_DK_SAMHAIN, 46)
-        brand_text = font.render('Battle-Story', 1, (10, 10, 10))
-        brand_text_pos = brand_text.get_rect(
-            centerx=background.get_width()/2,
-            centery=background.get_height()/2
-        )
-        background.blit(brand_text, brand_text_pos)
+    #if pygame.font:
+    #    font = pygame.font.Font(FONT_DK_SAMHAIN, 46)
+    #    brand_text = font.render('Battle-Story', 1, (10, 10, 10))
+    #    brand_text_pos = brand_text.get_rect(
+    #        centerx=background.get_width()/2,
+    #        centery=background.get_height()/2
+    #    )
+    #    background.blit(brand_text, brand_text_pos)
 
     window.blit(background, (0, 0))
     pygame.display.flip()
 
+    #bomb = Bomb()
     allsprites = pygame.sprite.RenderPlain()
 
     for number in range(random.randint(4, 6)):
@@ -54,15 +60,26 @@ def main_menu(window):
         speed = random.randint(1, 6)
         allsprites.add(Cloud(altitude, speed))
 
+    hero = Hero()
+    allsprites.add(hero)
+
+    pygame.draw.rect(background, GREEN_PELOUSE, (0, 500, WINDOW_WIDTH, 100))
+
+    brand, brand_rect = core.load_image('Battle-story.png', -1)
+    brand_rect.left = WINDOW_WIDTH / 2 - brand_rect.width / 2
+    brand_rect.top = WINDOW_HEIGHT / 3 - brand_rect.height / 2
+    background.blit(brand, brand_rect)
+
+    #bombsprites = pygame.sprite.RenderPlain((bomb))
     while True:
         for event in pygame.event.get():
             if event.type == QUIT:
                 quit_menu(window)
         allsprites.update()
+        #bombsprites.update()
         window.blit(background, (0, 0))
         allsprites.draw(window)
         pygame.display.flip()
-        #pygame.display.update()
         FPS_CLOCK.tick(FPS_FREQUENCY)
 
 def quit_menu(window):
