@@ -35,6 +35,6 @@ class Cloud(pygame.sprite.Sprite):
         newpos = self.rect.move((self.move, 0))
         if not self.area.contains(newpos):
             if self.rect.left > self.area.right:
-                self.rect.topleft = 0, self.altitude
+                self.rect.topleft = -self.rect.left, self.altitude
                 newpos = self.rect.move((self.move, 0))
         self.rect = newpos
