@@ -14,7 +14,7 @@ except ImportError as e:
     print(e)
 
 JUKEBOX = {
-    'intro' : '01_-_kmmerer_-_Wicked_game_(Freedom_rmx_by_kmmerer).vaw',
+    'intro' : 'fuxter_enter-the-chiptune-the-bree-gadah-feat-fuxter.vaw',
     'final' : 'Tunguska_Electronic_Music_Society_-_Oleg_Sirenko_-_Invasion_.vaw'
 }
 class Jukebox():
