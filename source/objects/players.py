@@ -33,17 +33,7 @@ class Hero(pygame.sprite.Sprite):
         self.posx = 0
         self.stop = False
 
-        self.update()
         self.actual_position = 0
-
-    def update(self):
-        """
-        """
-        t = pygame.time.get_ticks()
-        if not self.stop:
-            self.walk(t)
-        else:
-            self.stay(t)
 
     def walk(self, t):
         if self._images == None:
@@ -53,7 +43,7 @@ class Hero(pygame.sprite.Sprite):
             self.stop = True
             self._images = None
             return
-        self.animate(t)
+        self._animate(t)
         self.posx += 3
         self.rect.topleft = self.posx, 500 - self.rect.height
 
@@ -61,10 +51,10 @@ class Hero(pygame.sprite.Sprite):
         if self._images == None:
             self._images = self.img_stay
             self.rects = self.rects_stay
-        self.animate(t)
+        self._animate(t)
         self.rect.topleft = self.posx, 500 - self.rect.height
 
-    def animate(self, t):
+    def _animate(self, t):
         if t - self._last_update > self._delay:
             self._frame += 1
             if self._frame >= len(self._images):
@@ -72,3 +62,10 @@ class Hero(pygame.sprite.Sprite):
             self.image = self._images[self._frame]
             self.rect = self.rects[self._frame]
             self._last_update = t
+
+    def play_auto_animation(self):
+        t = pygame.time.get_ticks()
+        if not self.stop:
+            self.walk(t)
+        else:
+            self.stay(t)
