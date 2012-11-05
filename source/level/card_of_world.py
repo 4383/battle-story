@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 author:Hervé BERAUD
-filename:menu.py
+filename:card_of_world.py
 """
 try:
     import sys
@@ -21,13 +21,12 @@ try:
     from objects.players import Hero
     from objects.nature import Cloud
     from objects.weapon import Bomb
-    import level.card_of_world as play
     import core
     from jukebox import Jukebox
 except ImportError as e:
     print(e)
 
-def main_menu(window):
+def card_of_world(window):
     """
     Create a main menu
     """
@@ -40,22 +39,6 @@ def main_menu(window):
     background = pygame.Surface(window.get_size())
     background = background.convert()
     background.fill(CIEL)
-
-    if pygame.font:
-        font = pygame.font.Font(FONT_DK_SAMHAIN, 46)
-        play_txt = font.render('PLAY', 1, (10, 10, 10))
-        play_txt_pos = play_txt.get_rect(
-            centerx=200,
-            centery=background.get_height()/2
-        )
-        background.blit(play_txt, play_txt_pos)
-
-        load_txt = font.render('LOAD', 1, (10, 10, 10))
-        load_txt_pos = load_txt.get_rect(
-            centerx=550,
-            centery=background.get_height()/2
-        )
-        background.blit(load_txt, load_txt_pos)
 
     window.blit(background, (0, 0))
     pygame.display.flip()
@@ -82,40 +65,12 @@ def main_menu(window):
     while True:
         for event in pygame.event.get():
             if event.type == QUIT:
-                quit_menu(window)
-            elif event.type == MOUSEBUTTONDOWN:
-                posx, posy = pygame.mouse.get_pos()
-                if posx >= play_txt_pos.left and \
-                   posx <= play_txt_pos.left + play_txt_pos.width and \
-                   posy >= play_txt_pos.top and \
-                   posy <= play_txt_pos.top + play_txt_pos.height:
-                    play.card_of_world(window)
-                elif posx >= load_txt_pos.left and \
-                   posx <= load_txt_pos.left + load_txt_pos.width and \
-                   posy >= load_txt_pos.top and \
-                   posy <= load_txt_pos.top + load_txt_pos.height:
-                    print("Load")
+                return
         hero.play_auto_animation()
         allsprites.update()
         #bombsprites.update()
         window.blit(background, (0, 0))
         allsprites.draw(window)
         pygame.display.flip()
-        FPS_CLOCK.tick(FPS_FREQUENCY)
-
-def quit_menu(window):
-    """
-    Create a quit menu
-    Called when user want quit game
-    """
-    jukebox = Jukebox()
-    jukebox.load('final')
-    jukebox.play()
-    while True:
-        window.fill(BLACK)
-        for event in pygame.event.get():
-            if event.type == QUIT:
-                core.quit_game()
-        pygame.display.update()
         FPS_CLOCK.tick(FPS_FREQUENCY)
 
