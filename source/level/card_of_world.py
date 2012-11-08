@@ -22,7 +22,7 @@ try:
     from objects.nature import Cloud
     from objects.weapon import Bomb
     import core
-    from jukebox import Jukebox
+    from engine.jukebox import Jukebox
 except ImportError as e:
     print(e)
 
