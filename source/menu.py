@@ -5,6 +5,7 @@ author:Hervé BERAUD
 filename:menu.py
 """
 try:
+    import gettext
     import sys
     import random
     import pygame
@@ -23,9 +24,12 @@ try:
     from objects.weapon import Bomb
     import level.card_of_world as play
     import core
-    from jukebox import Jukebox
+    from engine.jukebox import Jukebox
+    from engine.game import Game
 except ImportError as e:
     print(e)
+
+_ = gettext.gettext
 
 def main_menu(window):
     """
@@ -43,14 +47,14 @@ def main_menu(window):
 
     if pygame.font:
         font = pygame.font.Font(FONT_DK_SAMHAIN, 46)
-        play_txt = font.render('PLAY', 1, (10, 10, 10))
+        play_txt = font.render(_('JOUER'), 1, (10, 10, 10))
         play_txt_pos = play_txt.get_rect(
             centerx=200,
             centery=background.get_height()/2
         )
         background.blit(play_txt, play_txt_pos)
 
-        load_txt = font.render('LOAD', 1, (10, 10, 10))
+        load_txt = font.render(_('CHARGER'), 1, (10, 10, 10))
         load_txt_pos = load_txt.get_rect(
             centerx=550,
             centery=background.get_height()/2
@@ -89,7 +93,9 @@ def main_menu(window):
                    posx <= play_txt_pos.left + play_txt_pos.width and \
                    posy >= play_txt_pos.top and \
                    posy <= play_txt_pos.top + play_txt_pos.height:
-                    play.card_of_world(window)
+                    print("jeu")
+                    game = Game('map1')
+                    game.play(window)
                 elif posx >= load_txt_pos.left and \
                    posx <= load_txt_pos.left + load_txt_pos.width and \
                    posy >= load_txt_pos.top and \
