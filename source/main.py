@@ -11,11 +11,11 @@ try:
     import pygame
     from pygame.locals import *
     from cat import Cat
-    from jukebox import Jukebox
     from const import LOG_FILE
     from const import FPS_FREQUENCY
     from const import WINDOW_WIDTH
     from const import WINDOW_HEIGHT
+    from engine.jukebox import Jukebox
     import menu
 except ImportError as e:
     print(e)
@@ -36,9 +36,6 @@ def main():
     cat = Cat(window)
     jukebox = Jukebox()
     logging.info('Running game')
-
-    # A dégager
-    start = 60
 
     while True:
         menu.main_menu(window)

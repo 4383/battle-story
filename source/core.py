@@ -10,7 +10,7 @@ try:
     import logging
     import pygame
     from pygame.locals import *
-    from jukebox import Jukebox
+    from engine.jukebox import Jukebox
     from const import RESOURCES_PATH_IMG
 except ImportError as e:
     print(e)
