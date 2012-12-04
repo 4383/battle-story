@@ -71,3 +71,47 @@ def load_sliced_sprites(w, h, filename):
             images.append(tmp_img)
             rects.append(tmp_img.get_rect())
     return images, rects
+
+def _loader(str_picture, int_width, int_height, bool_abstract=True):
+    """
+    Load an image or extract and create mapping matrice contening
+    list of color ordered or just load
+    and extract image and return ordered array contening picture
+    """
+    if type(int_width) is not 'int':
+        int_width = int(int_width)
+    if type(int_height) is not 'int':
+        int_height = int(int_height)
+    if bool_abstract:
+        row = []
+        columns = []
+    else:
+        images = []
+        rects = []
+    fullname = str_picture
+    master_image = pygame.image.load(fullname).convert_alpha()
+
+    master_width, master_height = master_image.get_size()
+    for j in xrange(int(master_height/int_height)):
+        for i in xrange(int(master_width/int_width)):
+            if bool_abstract:
+                columns.append(master_image.get_at((
+                    i * int_width,
+                    j * int_height
+                )))
+            else:
+                tmp_img = master_image.subsurface((
+                    i*int_width,
+                    j*int_height,
+                    int_width,
+                    int_height
+                ))
+                images.append(tmp_img)
+                rects.append(tmp_img.get_rect())
+        if bool_abstract:
+            row.append(columns)
+            columns = []
+    if bool_abstract:
+        return row
+    else:
+        return images, rects
