@@ -18,8 +18,8 @@ try:
     from const import FPS_CLOCK
     from const import WINDOW_WIDTH
     from const import WINDOW_HEIGHT
+    import core
     from objects.decor import Block
-    import menu
 except ImportError as e:
     print(e)
 
@@ -50,9 +50,6 @@ class Game():
             sys.exit(1)
 
         self.conf_level = config.items('MAPPING')
-        #self.mapper = config.get('MAPPING', 'MAPPER')
-        #self.map_pattern = config.get('MAPPING', 'PATTERN')
-        #self.map_render = config.get('MAPPING', 'RENDER')
 
     def play(self, window):
         again = True
@@ -115,7 +112,8 @@ class Level():
         int width define the width of an unit block.
         int height define the height of an unit block.
         """
-        self._mapper = self._loader(
+        str_picture = '{0}{1}' . format(RESOURCES_PATH_IMG_MAPS, str_picture)
+        self._mapper = core._loader(
             str_picture,
             int_block_width,
             int_block_height
@@ -124,7 +122,8 @@ class Level():
     def _set_pattern(self, str_picture, int_block_width, int_block_height):
         """
         """
-        self._pattern = self._loader(
+        str_picture = '{0}{1}' . format(RESOURCES_PATH_IMG_MAPS, str_picture)
+        self._pattern = core._loader(
             str_picture,
             int_block_width,
             int_block_height
@@ -140,7 +139,8 @@ class Level():
     def _set_pattern_solid_block(self, str_picture, int_block_width, int_block_height):
         """
         """
-        self._pattern_solid_block = self._loader(
+        str_picture = '{0}{1}' . format(RESOURCES_PATH_IMG_MAPS, str_picture)
+        self._pattern_solid_block = core._loader(
             str_picture,
             int_block_width,
             int_block_height
@@ -156,7 +156,8 @@ class Level():
     def _set_render(self, str_picture, int_block_width, int_block_height):
         """
         """
-        self._render, self._render_rect = self._loader(
+        str_picture = '{0}{1}' . format(RESOURCES_PATH_IMG_MAPS, str_picture)
+        self._render, self._render_rect = core._loader(
             str_picture,
             int_block_width,
             int_block_height,
@@ -210,60 +211,30 @@ class Level():
         else:
             self._group_non_solid_block.add(block)
 
-    def _loader(self, str_picture, int_width, int_height, bool_abstract=True):
-        """
-        Load an image or extract and create mapping matrice contening
-        list of color ordered or just load
-        and extract image and return ordered array contening picture
-        """
-        if type(int_width) is not 'int':
-            int_width = int(int_width)
-        if type(int_height) is not 'int':
-            int_height = int(int_height)
-        if bool_abstract:
-            row = []
-            columns = []
-        else:
-            images = []
-            rects = []
-        fullname = '{0}{1}' . format(RESOURCES_PATH_IMG_MAPS, str_picture)
-        master_image = pygame.image.load(fullname).convert_alpha()
-
-        master_width, master_height = master_image.get_size()
-        for j in xrange(int(master_height/int_height)):
-            for i in xrange(int(master_width/int_width)):
-                if bool_abstract:
-                    columns.append(master_image.get_at((
-                        i * int_width,
-                        j * int_height
-                    )))
-                else:
-                    tmp_img = master_image.subsurface((
-                        i*int_width,
-                        j*int_height,
-                        int_width,
-                        int_height
-                    ))
-                    images.append(tmp_img)
-                    rects.append(tmp_img.get_rect())
-            if bool_abstract:
-                row.append(columns)
-                columns = []
-        if bool_abstract:
-            return row
-        else:
-            return images, rects
-
-    def get_solid_block(self):
-        """
-        """
-
-class Artificial_intelligence():
+class Goodies():
     """
-    Control AI for action against player
+    Create all godies for positioning into the map
     """
 
-    def ___init__():
+    def __init__(self):
+        """
+        """
+
+class Enemy():
+    """
+    Create all enemy and initialize them
+    """
+
+    def __init__(self):
+        """
+        """
+
+class Door():
+    """
+    Create all passage of the level
+    """
+
+    def __init__(self):
         """
         """
 
